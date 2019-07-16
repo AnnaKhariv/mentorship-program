@@ -1,0 +1,20 @@
+{
+  "name": "mentorship-program",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node patterns/index.js",
+    "singleton": "node patterns/singleton",
+    "observer": "node patterns/observer",
+    "mediator": "node patterns/mediator",
+    "factory": "node patterns/factory",
+    "module": "node patterns/module"
+  },
+  "author": "Anna Khariv",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.12"
+  }
+}
