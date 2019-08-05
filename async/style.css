@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.body {
+	background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+}
+
+.buttons {
+ display: flex;
+ justify-content: space-around;
+}
+
+.btn{
+	margin: 20px;
+	display: block;
+	border: 2px solid white;
+	background-color: transparent;
+	padding: 20px;
+	color: #fff;
+	font-size: 1.5rem;
+	font-family: cursive;
+	width: 40%;
+}
+
+.table {
+	margin: 20px auto;
+	width: 90%;
+	border-collapse: collapse; 
+	border: 2px solid white;
+	color: white;
+	text-align: center;
+}
+
+tr, td, th {
+	border: 2px solid white;
+}
